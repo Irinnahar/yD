@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico');
+/* @import url("./bootstrap.min.css"); */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+/* header */
+a.navbar-brand {
+    color: rgb(236, 12, 72)!important;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+    background: rgb(45, 45, 45)!important;
+}
+a.nav-link{
+    color: rgb(236, 12, 72)!important;
+}
+.navbar-light .navbar-toggler {
+    background: rgb(236, 12, 72)!important;;
+    color: white;
+}
+/* main wrap */
+.mainwrapper {
+    background-image: url(../assets/YouTube.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section#mainsection {
+    background: rgba(0,0,0,.6);
+    height: 100vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
