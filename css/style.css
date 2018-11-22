@@ -20,7 +20,9 @@ a.navbar-brand {
 }
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    background: rgb(152, 31, 9) !important;
+    border-bottom: 1px solid #dcdcdc33;
+    background: rgb(95, 19, 5) !important;
+
 }
 
 a.nav-link {
@@ -92,6 +94,7 @@ button#convert-btn {
 .youtube-content {
     padding: 30px!important;
     margin: auto;
+    width: 80%;
 }
 .youtube-content .row {
     background: rgba(0,0,0,.5);

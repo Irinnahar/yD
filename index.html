@@ -13,7 +13,8 @@
 <body>
     <div id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Youtube Downloader</a>
+            <div class="container">
+                <a class="navbar-brand" href="#">Youtube Downloader</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,6 +31,7 @@
                 </ul>
 
             </div> -->
+            </div>
         </nav>
     </div>
     <div class="mainwrapper">
@@ -41,12 +43,22 @@
                     <input type="text" id="searchlink">
                     <button type="submit" id="convert-btn">Convert</button>
                 </div>
+                <div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Convert to MP3</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">Convert to MP4</label>
+                      </div>
+                </div>
                 <div class="youtube-content container">
                     <div class="row">
                         <div id="content-info" class="col-md-8">
-                            <p>Name: Tomay Hrid Majhare Rakhbo ft. Anusheh Anadil | Folk Studio Bangla Song 2018
+                            <p><span style="font-weight:bold; font-size: 16px">Name : </span> Tomay Hrid Majhare Rakhbo ft. Anusheh Anadil | Folk Studio Bangla Song 2018
                                 </p>
-                            <p>Uploaded By: Folk Studio Bangla  </p>
+                            <p><span style="font-weight:bold; font-size: 16px">Uploaded By : </span>  Folk Studio Bangla  </p>
 
                             <div class="d-flex">
                                 <div class="dropdown show">
